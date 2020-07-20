@@ -1,0 +1,426 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+#content {
+    min-height: 409%;
+}
+/*******************homepage*********************/
+
+/*----------------------nav---------------------------*/
+.nav-homepage a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: 'Playfair Display', serif;
+    font-variant-caps:all-small-caps;
+}
+
+.nav-homepage a:hover {
+    font-size: 2.6vw;
+}
+
+.nav-homepage {
+    position: sticky;
+    z-index: 100;
+    top: 0vw;
+    position: absolute;
+}
+
+.homepage-div_nav--right, .homepage-div_nav--left {
+    display: inline;
+    position: relative;
+    top: 6vw;
+}
+
+.homepage-div_nav--right {
+    left: 54vw;
+    padding:2vw;
+}
+
+.homepage-div_nav--left {
+    left: 8vw;
+}
+
+/*-------------------background pics------------------*/
+.banner {
+    /*    position: relative;*/
+    width: 100vw;
+    height: 50vw;
+    background: url(Pic/dcc2d222-c959-45cd-a355-3e75291580f0.jpg);
+    background-size: 100vw 80vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.banner-word {
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 26vw;
+    left: 20vw;
+    font-size: 15vw;
+}
+/*-----------------foreground pics--------------------*/
+/*
+.container {
+height: 100vh;
+}
+*/
+
+.div-homepage {
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    height: 50vw;
+}
+
+.image-homepage {
+    height: 50vw;
+    width: 100vw;
+}
+.christianninja {
+    background-color: black;
+}
+
+/*--------------------words---------------------------*/
+.word {
+    position: absolute;
+    font-size: 10vw;
+    color: white;
+}
+.christianninja-word {
+    position: relative;
+    top: 16vw;
+    font-size: 7vw;
+    font-family: 'Vollkorn', serif;
+    font-variant-caps: all-petite-caps;
+}
+
+
+.container a {
+    text-decoration: none;
+}
+
+.div-homepage a:hover {
+    font-size: 10vw;
+}
+
+/*********************photo**********************/
+
+/*----------------------------nav-------------------*/
+.nav-photo a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: 'Playfair Display', serif;
+    font-variant-caps:all-small-caps;
+}
+
+.nav-photo a:hover {
+    font-size: 2.5vw;
+}
+
+.nav-photo {
+    position: sticky;
+    z-index: 100;
+    top: 0%;
+    background-color: black;
+    padding-bottom: 9.5vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.photo--div_nav-right, .photo--div_nav-left {
+    display: inline;
+    top: 8vh;
+}
+
+.photo--div_nav-right {
+    position: relative;
+    padding-left: 6vw;
+    float: right;
+    right: 3vw;
+}
+
+.photo--div_nav-left {
+    left: 4vw;
+    position: relative;
+}
+
+.homepage-button {
+    position: absolute;
+    margin: 0;
+    top: 8vh;
+    right: 50vw;
+}
+/*---------------background pics---------------*/
+.banner-photo {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.banner-word--photo {
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 16vh;
+    left: 19.5vw;
+    font-size: 10vw;
+    background-attachment: fixed;
+    font-family: 'Vollkorn', serif;
+    font-variant-caps: all-petite-caps;
+}
+
+.div-photo--1 {
+    height: 95vh;
+    width: 100vw;
+    font-size: 0vw;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.div-div--photo1 {
+    background-color: black;
+    height: 74vh;
+    width: 85vw;
+    margin-top: 15vh;
+    max-width: 100%;
+}
+
+.div-div--photo1words {
+    color: #FBFBFB;
+    font-size: 1.9vw;
+    position: absolute;
+    left: 54vw;
+    top: 110vh;
+    right:11vw;
+    line-height: 6vh;
+    font-family: Georgia, serif;
+}
+.div-photo--2 {
+    height: 65vh;
+    width: 100vw;
+    font-size: 0vw;
+    position: relative;
+    justify-content: center;
+    background-color: white;
+    max-width: 100%;
+}
+.background-div1 {
+    background-color: black;
+    width: 100vw;
+    height: 95vh;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    display: flex;
+    max-width: 100%;
+}
+.background-photo1 {
+    background-image: url(Pic/ballin_customized_iphone_case_grande1.jpg);
+    width: 100vw;
+    height: 95vh;
+    background-size: 42vw 67vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10vw 24vh;
+    max-width: 100%;
+}
+.background-photo2 {
+    background-image: url(Pic/Layer%205.png);
+    width: 90vw;
+    height: 99vh;
+    background-size: 20vw 59vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 56vw 27vh;
+    max-width: 100%;
+}
+.photo-words-left, .photo-words-right {
+    color: white;
+    position: absolute;
+    font-size: 6.5vw;
+    margin-top: 39vh;
+    left: 2vw;
+    font-family: Georgia, sans-serif;
+}
+.photo-words-right {
+    left: 77vw;
+    background-color: transparent;
+}
+
+.div-div--photo3, .div-div--photo4, .div-div--photo5 {
+    background-color: white;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    max-width: 100%;
+}
+.div-div--photo5 {
+    height: 93vh;
+}
+
+.div-div--photo3words {
+    position: absolute;
+    left: 57vw;
+    right: 10vw;
+    top: 12vh;
+    color: black;
+    font-size: 7vw;
+}
+.background-div2 {
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+/*---------------------foreground---------------*/
+
+.photo-photo {
+    background-image: url(Pic/f4f1c6a9-3cef-4377-bfd1-759baa9ac832.jpg);
+    background-size: 35vw 57vh;
+    height: 50vh;
+    width: 37vw;
+    margin-top: 12vh;
+    margin-left: 4vw;
+    background-position: 2vw -6vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.photo-photo2 {
+    background-image: url(Pic/2341cf10-e1c4-4cc9-87ef-3cd62f2edace.jpg);
+    background-size: 32vw 50vh;
+    height:60vh;
+    width: 37.5vw;
+    margin-left: -2.4vw;
+    margin-top: 8vh;
+    background-position: 3vw 1vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.photo-photo3 {
+    background-image: url(Pic/f7fc1c4b-7245-4cb5-af3e-eca7f4b90d31.jpg);
+    background-size: 32vw 50vh;
+    height: 52vh;
+    width: 37.5vw;
+    margin-left: 30.3vw;
+    margin-top: -60vh;
+    background-position: 3vw 1vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.photo-photo4 {
+    background-image: url(Pic/d7f3b5ec-dd08-4b4e-a9d1-c2037d11ce55.jpg);
+    background-size: 32vw 50vh;
+    height: 52vh;
+    width: 37.5vw;
+    margin-top: -53vh;
+    margin-left: 61vw;
+/*    float: right;*/
+    background-position: 5vw 2vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.photo-photo5 {
+    background-image: url(Pic/c767db4c-ef00-48f7-aadd-8fa3f6116939.jpg);
+    background-size: 50vw 63vh;
+    height: 75vh;
+    width: 50vw;
+    position: relative;
+    top: 10vh;
+    left: 3vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 3vw 23vh;
+    max-width: 100%;
+}
+.photo-photo6 {
+    background-image: url(Pic/ca3530d2-5dea-4677-8c25-15fc553e46b8.jpg);
+    background-size: 50vw 65vh;
+    height: 90vh;
+    width: 50vw;
+    float: right;
+    position: relative;
+    right: 4vw;
+    top: 10vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 44vw 25vh;
+    max-width: 100%;
+}
+.photo-photo7 {
+    background-image: url(Pic/51be4829-8096-47a3-9cfa-0fcd8b21cf85.jpg);
+    background-size: 50vw 65vh;
+    height: 76vh;
+    width: 50vw;
+    position: relative;
+    left: 2vw;
+    top: 10vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 2vw 23vh;
+    max-width: 100%;
+}
+.background-photo3 {
+    background-image: url(Pic/a67b9c87-fe90-4d23-8aa1-d72edaa56cae.jpg);
+    background-size: 85vw 130vh;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 6vw 8vh;
+    max-width: 100%;
+}
+.photo-footer {
+    height: 17vh;
+    width: 100vw;
+    max-width: 100%;
+}
+.footer-word--left, .footer-word--right {
+    margin: 0;
+    padding: 1vw;
+    font-family: Georgia, sans-serif;
+    font-size: 1.6vw;
+    margin-top: 1.5vh;
+}
+.footer-left {
+    position: absolute;
+    left: 25vw;
+    right: 24vw;
+    color: #6B6B6B;
+}
+.footer-right {
+    position: absolute;
+    left: 50vw;
+    color: #474747;
+}
+.border {
+    border-top: 2px solid #6B6B6B;
+}
+/**************************fade************************/
+.fade-in {
+    opacity: 50%;
+    transition:opacity 0.8s
+}
+
+.fade-in:hover {
+    opacity:100%;
+    transition:opacity 0.5s
+}
